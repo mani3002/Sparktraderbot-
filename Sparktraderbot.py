@@ -2,6 +2,8 @@ import streamlit as st
 import requests
 import datetime
 
+st.set_page_config(page_title="SparkTrader Bot", layout="wide")
+
 # --- USER CONFIGURABLE ---
 TELEGRAM_TOKEN = "7728754112:AAHFMGpaVY1RebbFRxoxkvQfrDbnAQVqYMo"
 CHAT_ID = "1110291664"
