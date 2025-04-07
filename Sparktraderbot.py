@@ -54,6 +54,7 @@ if submit:
             st.write(f"**{stock}** | Qty: {qty} | Buy: ₹{bp} | TP: ₹{tp:.2f} | SL: ₹{sl:.2f}")
 
         st.caption(f"Time: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+
 import streamlit as st
 import datetime
 import requests
