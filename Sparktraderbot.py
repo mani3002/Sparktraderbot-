@@ -52,7 +52,6 @@ if submit:
             st.write(f"**{stock}** | Qty: {qty} | Buy: ₹{bp} | TP: ₹{tp:.2f} | SL: ₹{sl:.2f}")
 
         st.caption(f"Time: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-st.set_page_config(page_title="SparkTrader Bot", layout="wide")
 # Dashboard title
 st.set_page_config(page_title="SparkTraderBot", layout="wide")
 st.title("SparkTraderBot - Live Trading Dashboard")
